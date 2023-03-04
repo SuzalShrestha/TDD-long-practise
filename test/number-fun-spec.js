@@ -13,7 +13,7 @@ describe("Reciprocal Function",function(){
         
 
     })
-    it("should thorw Error",function(){
+    it("should throw Error",function(){
         expect(()=>reciprocal(0)).to.throw(Error);
         expect(()=>reciprocal(-4)).to.throw(Error);
         expect(()=>reciprocal(1000001)).to.throw(Error);
